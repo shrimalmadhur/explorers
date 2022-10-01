@@ -6,14 +6,14 @@
       {
         "name": "Mainnet",
         "ticker": "ETH",
-        "block_explorer_url": "",
+        "block_explorer_url": "https://etherscan.io/",
         "image":"",
         "chain_type": "EVM"
       },
       {
         "name": "Goerli",
         "ticker": "ETH",
-        "block_explorer_url": "",
+        "block_explorer_url": "https://goerli.etherscan.io/",
         "image":"",
         "chain_type": "EVM"
       }
@@ -26,21 +26,21 @@
       {
         "name": "C Chain",
         "ticker": "AVAX",
-        "block_explorer_url": "",
+        "block_explorer_url": "https://snowtrace.io/",
         "image":"",
         "chain_type": "EVM"
       },
       {
         "name": "P Chain",
         "ticker": "AVAX",
-        "block_explorer_url": "",
+        "block_explorer_url": "https://explorer-xp.avax.network/blockchain/2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
         "image":"",
         "chain_type": "EVM"
       },
       {
         "name": "Fuji",
         "ticker": "AVAX",
-        "block_explorer_url": "",
+        "block_explorer_url": "https://testnet.snowtrace.io/",
         "image":"",
         "chain_type": "EVM"
       }
@@ -53,14 +53,14 @@
       {
         "name": "Mainnet",
         "ticker": "OP",
-        "block_explorer_url": "",
+        "block_explorer_url": "https://optimistic.etherscan.io/",
         "image":"",
         "chain_type": "EVM"
       },
       {
-        "name": "Testnet",
+        "name": "Kovan",
         "ticker": "OP",
-        "block_explorer_url": "",
+        "block_explorer_url": "https://kovan-optimistic.etherscan.io/",
         "image":"",
         "chain_type": "EVM"
       }
@@ -73,14 +73,14 @@
       {
         "name": "Mainnet",
         "ticker": "ARB",
-        "block_explorer_url": "",
+        "block_explorer_url": "https://arbiscan.io/",
         "image":"",
         "chain_type": "EVM"
       },
       {
         "name": "Testnet",
         "ticker": "ARB",
-        "block_explorer_url": "",
+        "block_explorer_url": "https://testnet.arbiscan.io/",
         "image":"",
         "chain_type": "EVM"
       }

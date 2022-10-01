@@ -19,7 +19,7 @@ const Blockchains: FC<Props> = ({ data }) => {
       })
   }, [])
   return (
-    <div>
+    <div className='p-5'>
       {!chains && <div>No data</div>}
       {chains && <div className='grid grid-cols-3 gap-3'>{chains.map(function (entry: any, index) {
         return <div key={index}>
