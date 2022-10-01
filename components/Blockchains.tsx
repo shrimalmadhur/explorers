@@ -21,7 +21,7 @@ const Blockchains: FC<Props> = ({ data }) => {
   return (
     <div className='p-5'>
       {!chains && <div>No data</div>}
-      {chains && <div className='grid grid-cols-3 gap-3'>{chains.map(function (entry: any, index) {
+      {chains && <div className='grid grid-cols-3 gap-3'>{chains.map(function (entry: any, index: any) {
         return <div key={index}>
           <Blockchain data={entry}></Blockchain>
         </div>;

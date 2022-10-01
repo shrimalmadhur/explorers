@@ -11,3 +11,5 @@ type Network = {
   image: string;
   chain_type: string;
 }
+
+export default Blockchain;
