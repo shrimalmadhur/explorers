@@ -19,7 +19,14 @@ const Home: NextPage = () => {
         <Blockchains data={""}></Blockchains>
       </main>
 
-      <footer className={styles.footer}>
+      <footer className="m-4 p-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-orange-200">
+        <span className="text-sm text-black-500 sm:text-center dark:text-black-400 font-mono">© 2022 <a href="https://mshrimal.com/" className="hover:underline">Madhur Shrimal</a>. All Rights Reserved.
+        </span>
+        <ul className="flex flex-wrap items-center mt-3 text-sm text-black-500 dark:text-black-400 sm:mt-0">
+            <li>
+                <a href="https://github.com/shrimalmadhur/explorers" className="hover:underline text-base font-mono" target='new'>Github</a>
+            </li>
+        </ul>
       </footer>
     </div>
   )

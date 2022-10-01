@@ -24,14 +24,14 @@
     "ticker": "AVAX", 
     "networks": [
       {
-        "name": "C Chain",
+        "name": "C-Chain",
         "ticker": "AVAX",
         "block_explorer_url": "https://snowtrace.io/",
         "image":"",
         "chain_type": "EVM"
       },
       {
-        "name": "P Chain",
+        "name": "P-Chain",
         "ticker": "AVAX",
         "block_explorer_url": "https://explorer-xp.avax.network/blockchain/2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
         "image":"",
@@ -83,6 +83,46 @@
         "block_explorer_url": "https://testnet.arbiscan.io/",
         "image":"",
         "chain_type": "EVM"
+      }
+    ]
+  },
+  {
+    "name": "Polygon",
+    "ticker": "MATIC", 
+    "networks": [
+      {
+        "name": "Mainnet",
+        "ticker": "MATIC",
+        "block_explorer_url": "https://polygonscan.com/",
+        "image":"",
+        "chain_type": "EVM"
+      },
+      {
+        "name": "Mumbai",
+        "ticker": "MATIC",
+        "block_explorer_url": "https://mumbai.polygonscan.com/",
+        "image":"",
+        "chain_type": "EVM"
+      }
+    ]
+  },
+  {
+    "name": "Solana",
+    "ticker": "SOL", 
+    "networks": [
+      {
+        "name": "Mainnet",
+        "ticker": "SOL",
+        "block_explorer_url": "https://explorer.solana.com/",
+        "image":"",
+        "chain_type": "Solana"
+      },
+      {
+        "name": "Testnet",
+        "ticker": "SOL",
+        "block_explorer_url": "https://explorer.solana.com/?cluster=testnet",
+        "image":"",
+        "chain_type": "Solana"
       }
     ]
   }
