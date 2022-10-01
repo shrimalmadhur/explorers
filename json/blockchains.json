@@ -125,5 +125,45 @@
         "chain_type": "Solana"
       }
     ]
+  },
+  {
+    "name": "Near",
+    "ticker": "NEAR", 
+    "networks": [
+      {
+        "name": "Mainnet",
+        "ticker": "NEAR",
+        "block_explorer_url": "https://explorer.near.org/",
+        "image":"",
+        "chain_type": "Near"
+      },
+      {
+        "name": "Testnet",
+        "ticker": "NEAR",
+        "block_explorer_url": "https://explorer.testnet.near.org/",
+        "image":"",
+        "chain_type": "Near"
+      }
+    ]
+  },
+  {
+    "name": "Cosmos",
+    "ticker": "ATOM", 
+    "networks": [
+      {
+        "name": "Mainnet",
+        "ticker": "ATOM",
+        "block_explorer_url": "https://www.mintscan.io/cosmos",
+        "image":"",
+        "chain_type": "Cosmos"
+      },
+      {
+        "name": "Testnet",
+        "ticker": "ATOM",
+        "block_explorer_url": "https://cosmoshub-testnet.mintscan.io/cosmoshub-testnet",
+        "image":"",
+        "chain_type": "Cosmos"
+      }
+    ]
   }
 ]
