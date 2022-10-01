@@ -1,0 +1,89 @@
+[
+  {
+    "name": "Ethereum",
+    "ticker": "ETH", 
+    "networks": [
+      {
+        "name": "Mainnet",
+        "ticker": "ETH",
+        "block_explorer_url": "",
+        "image":"",
+        "chain_type": "EVM"
+      },
+      {
+        "name": "Goerli",
+        "ticker": "ETH",
+        "block_explorer_url": "",
+        "image":"",
+        "chain_type": "EVM"
+      }
+    ]
+  },
+  {
+    "name": "Avalanche",
+    "ticker": "AVAX", 
+    "networks": [
+      {
+        "name": "C Chain",
+        "ticker": "AVAX",
+        "block_explorer_url": "",
+        "image":"",
+        "chain_type": "EVM"
+      },
+      {
+        "name": "P Chain",
+        "ticker": "AVAX",
+        "block_explorer_url": "",
+        "image":"",
+        "chain_type": "EVM"
+      },
+      {
+        "name": "Fuji",
+        "ticker": "AVAX",
+        "block_explorer_url": "",
+        "image":"",
+        "chain_type": "EVM"
+      }
+    ]
+  },
+  {
+    "name": "Optimism",
+    "ticker": "OP", 
+    "networks": [
+      {
+        "name": "Mainnet",
+        "ticker": "OP",
+        "block_explorer_url": "",
+        "image":"",
+        "chain_type": "EVM"
+      },
+      {
+        "name": "Testnet",
+        "ticker": "OP",
+        "block_explorer_url": "",
+        "image":"",
+        "chain_type": "EVM"
+      }
+    ]
+  },
+  {
+    "name": "Arbitrum",
+    "ticker": "ARB", 
+    "networks": [
+      {
+        "name": "Mainnet",
+        "ticker": "ARB",
+        "block_explorer_url": "",
+        "image":"",
+        "chain_type": "EVM"
+      },
+      {
+        "name": "Testnet",
+        "ticker": "ARB",
+        "block_explorer_url": "",
+        "image":"",
+        "chain_type": "EVM"
+      }
+    ]
+  }
+]
