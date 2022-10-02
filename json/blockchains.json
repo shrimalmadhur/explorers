@@ -33,6 +33,13 @@
       {
         "name": "P-Chain",
         "ticker": "AVAX",
+        "block_explorer_url": "https://explorer-xp.avax.network/blockchain/11111111111111111111111111111111LpoYY",
+        "image":"",
+        "chain_type": "EVM"
+      },
+      {
+        "name": "X-Chain",
+        "ticker": "AVAX",
         "block_explorer_url": "https://explorer-xp.avax.network/blockchain/2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
         "image":"",
         "chain_type": "EVM"
@@ -163,6 +170,59 @@
         "block_explorer_url": "https://cosmoshub-testnet.mintscan.io/cosmoshub-testnet",
         "image":"",
         "chain_type": "Cosmos"
+      }
+    ]
+  },
+  {
+    "name": "Sui",
+    "ticker": "SUI", 
+    "networks": [
+      {
+        "name": "Devent",
+        "ticker": "SUI",
+        "block_explorer_url": "https://explorer.devnet.sui.io/",
+        "image":"",
+        "chain_type": "Sui"
+      }
+    ]
+  },
+  {
+    "name": "Aptos",
+    "ticker": "Aptos", 
+    "networks": [
+      {
+        "name": "Devent",
+        "ticker": "Aptos",
+        "block_explorer_url": "https://explorer.aptoslabs.com/?network=Devnet",
+        "image":"",
+        "chain_type": "Aptos"
+      },
+      {
+        "name": "Testnet",
+        "ticker": "Aptos",
+        "block_explorer_url": "https://explorer.aptoslabs.com/?network=testnet",
+        "image":"",
+        "chain_type": "Aptos"
+      }
+    ]
+  },
+  {
+    "name": "Bitcoin",
+    "ticker": "BTC", 
+    "networks": [
+      {
+        "name": "Mainnet",
+        "ticker": "BTC",
+        "block_explorer_url": "https://www.blockchain.com/explorer",
+        "image":"",
+        "chain_type": "Bitcoin"
+      },
+      {
+        "name": "Testnet",
+        "ticker": "tBTC",
+        "block_explorer_url": "https://www.blockchain.com/explorer/assets/btc-testnet",
+        "image":"",
+        "chain_type": "Bitcoin"
       }
     ]
   }
